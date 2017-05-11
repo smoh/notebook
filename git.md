@@ -1,5 +1,14 @@
 # Git
 
+* To source a file in gitconfig:
+
+```
+[include]
+    path = /path/to/file
+```
+
+[link](http://stackoverflow.com/questions/1557183/is-it-possible-to-include-a-file-in-your-gitconfig)
+
 * `git log --name-status` to wee modified/added/deleted file names only in each commit. [link](http://stackoverflow.com/questions/1230084/how-to-have-git-log-show-filenames-like-svn-log-v)
 
 * Prefixing `!` negates the pattern in .gitignore files. This is useful in e.g., data directory where you constantly add/remove stuff but only want to track scripts to download the data and what not.

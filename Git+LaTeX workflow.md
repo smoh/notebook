@@ -1,6 +1,6 @@
 # Git+LaTeX workflow
 
-[Git](https://git-scm.com/) with a hosting service such as [Github](https://github.com) provides an excellent platform for a collaborative writing. In this post, I describe tips and tricks that make it easy to start a collaborative LaTeX document.
+[Git](https://git-scm.com/) with a hosting service such as [Github](https://github.com) provides an excellent platform for collaborative writing. In this post, I describe tips and tricks that make it easy to start a collaborative LaTeX document.
 
 ## Templating with cookiecutter
 

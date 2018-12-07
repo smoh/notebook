@@ -1,0 +1,17 @@
+metadata:
+  version: 1
+  description: Data from Gagne et al. 2018 BANYAN Sigma paper
+
+plugins:
+  source:
+    - module: intake_astropy
+    - dir: "{{ CATALOG_DIR }}"
+
+sources:
+
+  example:
+    driver: astropy_table
+    args:
+      path: "{{ CATALOG_DIR }}/example.csv"
+      args:
+        format: ascii.csv

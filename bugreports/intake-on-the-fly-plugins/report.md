@@ -12,7 +12,6 @@ I have the following in my current directory
 # ==> data/catalog.yaml <==
 metadata:
   version: 1
-  description: Data from Gagne et al. 2018 BANYAN Sigma paper
 
 plugins:
   source:
